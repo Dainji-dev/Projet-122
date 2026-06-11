@@ -114,4 +114,4 @@ Un exemple de log généré lors des tests est disponible dans [`logs/log.txt`](
 
 ## 👤 Auteur
 
-**Romain Perez** — Module M122, 2026
+**Romain Perez** — Module M122, 11.06.2026
