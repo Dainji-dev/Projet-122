@@ -1,23 +1,6 @@
-# README
-
 # 🖥️ M122 — Automatisation de la création d'environnement utilisateur
 
-Script Bash développé dans le cadre du module M122 pour automatiser la préparation de l'environnement de travail d'un nouvel employé.
-
----
-
-## 📋 Contexte
-
-Dans une équipe informatique, la création manuelle des dossiers et fichiers pour chaque nouvel employé est une tâche répétitive et source d'erreurs. Ce script automatise entièrement ce processus afin de garantir une structure identique pour tous les collaborateurs.
-
-## 🎯 Problème résolu
-
-Sans automatisation, l'administrateur système doit :
-- Créer manuellement les dossiers pour chaque utilisateur
-- Copier les fichiers modèles (charte, checklist) à la main
-- Rédiger le fichier de bienvenue sans se tromper
-
-Ce script réalise tout cela en une seule commande.
+Script Bash qui automatise la préparation de l'environnement de travail d'un nouvel employé : création des dossiers, génération du fichier de bienvenue et copie des fichiers modèles.
 
 ---
 
@@ -37,7 +20,7 @@ Le script `creation_utilisateur.sh` effectue les opérations suivantes :
 ### Structure créée pour chaque utilisateur
 
 ```
-Nom_Prenom/
+Prenom_Nom/
 ├── Documents/
 │   ├── charte.pdf
 │   └── checklist.xlsx
@@ -52,12 +35,6 @@ Nom_Prenom/
 
 ```bash
 ./creation_utilisateur.sh <Prenom> <Nom> <Destination> <Templates>
-```
-
-### Exemple
-
-```bash
-./creation_utilisateur.sh Jean Dupont /home/employes /home/admin/Templates
 ```
 
 ---
@@ -76,7 +53,7 @@ Nom_Prenom/
 ## 🔧 Prérequis
 
 - Système Linux avec Bash
-- Les fichiers `charte.pdf` et `checklist.xlsx` doivent être présents dans le dossier Templates
+- Les fichiers `charte.pdf` et `checklist.xlsx` présents dans le dossier Templates
 - Droits d'écriture sur le dossier de destination
 
 ---
@@ -96,22 +73,19 @@ M122/
 │   ├── diagramme.drawio             # Diagramme de flux (source)
 │   └── diagramme.drawio.png         # Diagramme de flux (export PNG)
 └── logs/
-    └── log.txt                      # Exemple de fichier de journalisation
+    └── log.txt                      # Exemple de journalisation
 ```
 
 ---
 
-## 📄 Fichier log
+## 📄 Journalisation
 
-Le script génère deux fichiers de log dans le répertoire courant lors de l'exécution :
+Le script génère `log.txt` (opérations réussies) et `errors.txt` (erreurs) dans le répertoire courant. Un exemple est disponible dans [`logs/log.txt`](logs/log.txt).
 
-- `log.txt` — toutes les opérations réussies avec horodatage
-- `errors.txt` — les erreurs rencontrées avec horodatage
-
-Un exemple de log généré lors des tests est disponible dans [`logs/log.txt`](logs/log.txt).
+> Pour plus de détails, consulter le [manuel utilisateur](documentation/manuel_utilisateur.md).
 
 ---
 
 ## 👤 Auteur
 
-**Romain Perez** — Module M122, 11.06.2026
+**Romain Perez** — Module M122, 2026
