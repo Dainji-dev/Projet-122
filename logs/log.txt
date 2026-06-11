@@ -1,40 +1,21 @@
-[22/05/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Perez_Romain créé avec succès
-[22/05/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Perez_Romain/Documents créé avec succès
-[22/05/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Perez_Romain/Projets créé avec succès
-[22/05/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Perez_Romain/Archives créé avec succès
-[22/05/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6//Perez_Romain/bienvenue.txt créé avec succès
-[22/05/2026] La ligne correctement écrite dans /home/romain/Modules-CFC/M122/Séquence 6//Perez_Romain/bienvenue.txt
-[22/05/2026] La ligne correctement écrite dans /home/romain/Modules-CFC/M122/Séquence 6//Perez_Romain/bienvenue.txt
-[22/05/2026] La ligne correctement écrite dans /home/romain/Modules-CFC/M122/Séquence 6//Perez_Romain/bienvenue.txt
-[22/05/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6/Templates/charte.pdf copié avec succès
-[22/05/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6/Templates/checklist.xlsx copié avec succès
-[05/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Perez_Romain créé avec succès
-[05/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Perez_Romain/Documents créé avec succès
-[05/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Perez_Romain/Projets créé avec succès
-[05/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Perez_Romain/Archives créé avec succès
-[05/06/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6//Perez_Romain/bienvenue.txt créé avec succès
-[05/06/2026] La ligne correctement écrite dans /home/romain/Modules-CFC/M122/Séquence 6//Perez_Romain/bienvenue.txt
-[05/06/2026] La ligne correctement écrite dans /home/romain/Modules-CFC/M122/Séquence 6//Perez_Romain/bienvenue.txt
-[05/06/2026] La ligne correctement écrite dans /home/romain/Modules-CFC/M122/Séquence 6//Perez_Romain/bienvenue.txt
-[05/06/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6/Templates/charte.pdf copié avec succès
-[05/06/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6/Templates/checklist.xlsx copié avec succès
-[05/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Dubuis_Norah créé avec succès
-[05/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Dubuis_Norah/Documents créé avec succès
-[05/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Dubuis_Norah/Projets créé avec succès
-[05/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Dubuis_Norah/Archives créé avec succès
-[05/06/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6//Dubuis_Norah/bienvenue.txt créé avec succès
-[05/06/2026] La ligne correctement écrite dans /home/romain/Modules-CFC/M122/Séquence 6//Dubuis_Norah/bienvenue.txt
-[05/06/2026] La ligne correctement écrite dans /home/romain/Modules-CFC/M122/Séquence 6//Dubuis_Norah/bienvenue.txt
-[05/06/2026] La ligne correctement écrite dans /home/romain/Modules-CFC/M122/Séquence 6//Dubuis_Norah/bienvenue.txt
-[05/06/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6/Templates/charte.pdf copié avec succès
-[05/06/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6/Templates/checklist.xlsx copié avec succès
-[05/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Norah_Dubuis créé avec succès
-[05/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Norah_Dubuis/Documents créé avec succès
-[05/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Norah_Dubuis/Projets créé avec succès
-[05/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Norah_Dubuis/Archives créé avec succès
-[05/06/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6//Norah_Dubuis/bienvenue.txt créé avec succès
-[05/06/2026] La ligne correctement écrite dans /home/romain/Modules-CFC/M122/Séquence 6//Norah_Dubuis/bienvenue.txt
-[05/06/2026] La ligne correctement écrite dans /home/romain/Modules-CFC/M122/Séquence 6//Norah_Dubuis/bienvenue.txt
-[05/06/2026] La ligne correctement écrite dans /home/romain/Modules-CFC/M122/Séquence 6//Norah_Dubuis/bienvenue.txt
-[05/06/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6/Templates/charte.pdf copié avec succès
-[05/06/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6/Templates/checklist.xlsx copié avec succès
+[11/06/2026] Dossier /home/romain/Romain_Perez créé avec succès
+[11/06/2026] Dossier /home/romain/Romain_Perez/Documents créé avec succès
+[11/06/2026] Dossier /home/romain/Romain_Perez/Projets créé avec succès
+[11/06/2026] Dossier /home/romain/Romain_Perez/Archives créé avec succès
+[11/06/2026] Fichier /home/romain/Romain_Perez/bienvenue.txt créé avec succès
+[11/06/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6/Templates/charte.pdf copié avec succès
+[11/06/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6/Templates/checklist.xlsx copié avec succès
+[11/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Romain_Perez créé avec succès
+[11/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Romain_Perez/Documents créé avec succès
+[11/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Romain_Perez/Projets créé avec succès
+[11/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Romain_Perez/Archives créé avec succès
+[11/06/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6//Romain_Perez/bienvenue.txt créé avec succès
+[11/06/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6/Templates/charte.pdf copié avec succès
+[11/06/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6/Templates/checklist.xlsx copié avec succès
+[11/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Romain_Perez créé avec succès
+[11/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Romain_Perez/Documents créé avec succès
+[11/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Romain_Perez/Projets créé avec succès
+[11/06/2026] Dossier /home/romain/Modules-CFC/M122/Séquence 6//Romain_Perez/Archives créé avec succès
+[11/06/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6//Romain_Perez/bienvenue.txt créé avec succès
+[11/06/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6/Templates/charte.pdf copié avec succès
+[11/06/2026] Fichier /home/romain/Modules-CFC/M122/Séquence 6/Templates/checklist.xlsx copié avec succès
