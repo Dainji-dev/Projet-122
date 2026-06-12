@@ -1,5 +1,9 @@
 # 🖥️ M122 — Automatisation de la création d'environnement utilisateur
 
+![Last Commit](https://img.shields.io/github/last-commit/Dainji-dev/M122?label=LAST+COMMIT&style=flat-square&color=5c9bde)
+![Stars](https://img.shields.io/github/stars/Dainji-dev/M122?label=STARS&style=flat-square&color=lightgrey)
+![Repo Size](https://img.shields.io/github/repo-size/Dainji-dev/M122?label=REPO+SIZE&style=flat-square&color=b56aff)
+
 Script Bash qui automatise la préparation de l'environnement de travail d'un nouvel employé : création des dossiers, génération du fichier de bienvenue et copie des fichiers modèles.
 
 ---
