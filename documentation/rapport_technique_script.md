@@ -471,7 +471,7 @@ Cela permet de faciliter le diagnostic en cas de problème.
 
 ## 6.1 Cas de test réalisés
 
-### Test 1 : CréConformeation d'un nouvel utilisateur
+### Test 1 : Création d'un nouvel utilisateur
 
 Résultat attendu :
 
