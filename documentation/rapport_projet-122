@@ -1,0 +1,163 @@
+**Module :** M122  
+**Auteur :** Romain Perez  
+**Date :** 2026
+
+---
+
+## 1. S'informer
+
+### Qu'est-ce que Git ?
+
+Git est un logiciel de gestion de versions distribué. Il permet de suivre l'historique des modifications apportées à des fichiers au fil du temps. Chaque modification est enregistrée sous forme de **commit**, ce qui permet de revenir à une version antérieure à tout moment. Git fonctionne localement sur la machine de l'utilisateur.
+
+### Qu'est-ce que GitHub ?
+
+GitHub est une plateforme web qui permet d'héberger des dépôts Git en ligne. Elle offre une interface graphique pour visualiser le code, l'historique des commits et la structure des fichiers. GitHub facilite également le travail collaboratif en permettant à plusieurs personnes de travailler sur un même projet.
+
+### À quoi servent-ils dans un contexte professionnel ?
+
+Dans un contexte professionnel, Git et GitHub permettent de :
+
+- conserver un historique complet des modifications du code 
+- travailler en équipe sans risque d'écrasement de fichiers 
+- centraliser le code et la documentation sur une plateforme accessible 
+- partager des scripts et outils réutilisables entre collègues ou équipes 
+- déployer des projets de manière organisée et traçable
+
+### Éléments nécessaires à la publication du projet
+
+Pour publier ce projet sur GitHub, les éléments suivants sont nécessaires :
+
+- un compte GitHub ;
+- Git installé sur la machine locale ;
+- un dépôt GitHub créé (public ou privé) ;
+- les fichiers du projet organisés localement ;
+- une connexion internet pour effectuer le push.
+
+---
+
+## 2. Planifier
+
+### Étapes de création du dépôt
+
+La première étape consiste à créer un nouveau dépôt sur GitHub en lui donnant le nom `Projet-122`. Le dépôt est configuré en mode public afin que le projet soit accessible. Une fois le dépôt créé sur GitHub, on le clone localement avec la commande `git clone` pour obtenir un dossier déjà lié au dépôt distant.
+
+### Étapes de publication
+
+Une fois les fichiers préparés localement, on les ajoute au suivi Git avec `git add .`, puis on crée un commit avec un message descriptif via `git commit -m "message"`. Enfin, on envoie les fichiers sur GitHub avec `git push origin main`. Ces trois étapes sont répétées à chaque modification importante du projet.
+
+### Documents à intégrer
+
+Le dépôt doit contenir les documents suivants :
+
+- le script principal `creation_utilisateur.sh` et sa version de test ;
+- le `README.md` à la racine du dépôt ;
+- le rapport de projet et le manuel utilisateur dans le dossier `documentation/` ;
+- le diagramme de flux en format `.drawio` et `.png` dans le dossier `diagramme/` ;
+- un fichier `log.txt` d'exemple dans le dossier `logs/`.
+
+---
+
+## 3. Décider
+
+### Organisation retenue
+
+L'organisation choisie sépare clairement les différents types de fichiers en dossiers distincts. Cette approche est cohérente avec les standards utilisés dans les projets professionnels et facilite la navigation dans le dépôt.
+
+### Structure des dossiers
+
+```
+M122/
+├── README.md
+├── scripts/
+├── documentation/
+├── diagramme/
+└── logs/
+```
+
+Cette structure a été retenue car elle correspond exactement au cahier des charges et permet à n'importe quel administrateur système de retrouver rapidement ce qu'il cherche.
+
+### Choix de documentation
+
+Le `README.md` est rédigé en Markdown car ce format est nativement rendu par GitHub, ce qui le rend lisible directement depuis l'interface web sans avoir à télécharger le fichier. Le manuel utilisateur et le rapport sont également en Markdown pour la même raison. Le diagramme est fourni en deux formats : `.drawio` pour pouvoir le modifier et `.png` pour une visualisation rapide sans logiciel supplémentaire.
+
+---
+
+## 4. Concevoir
+
+### Création du dépôt GitHub
+
+Le dépôt a été créé directement depuis l'interface web de GitHub, en le nommant `Projet-122` et en le configurant en mode public.
+
+### Liaison avec le dépôt local
+
+Le dépôt a ensuite été cloné en local avec la commande suivante :
+
+```bash
+git clone https://github.com/Dainji-dev/Projet-122.git
+```
+
+Cette commande crée automatiquement le dossier local et le lie au dépôt distant, sans avoir besoin de faire `git init` manuellement.
+
+### Arborescence
+
+Les dossiers `scripts/`, `documentation/`, `diagramme/` et `logs/` ont été créés localement, puis les fichiers du projet ont été placés dans chacun d'eux.
+
+### Publication des fichiers
+
+Les fichiers ont été publiés sur GitHub avec les commandes suivantes :
+
+```bash
+git add .
+git commit -m "Ajout des fichiers du projet"
+git push origin main
+```
+
+---
+
+## 5. Tester
+
+### Vérifications effectuées
+
+| Vérification                      | Résultat   |
+| --------------------------------- | ---------- |
+| Dépôt accessible publiquement     | ✅ Conforme |
+| Tous les fichiers présents        | ✅ Conforme |
+| README lisible depuis GitHub      | ✅ Conforme |
+| Scripts téléchargeables           | ✅ Conforme |
+| Liens dans le README fonctionnels | ✅ Conforme |
+
+### Erreurs rencontrées et corrections
+
+**Problème :** Un fichier Markdown a été modifié directement depuis l'interface web de GitHub. En parallèle, des modifications ont également été effectuées localement sans avoir fait de `git pull` au préalable. Lors du `git push`, Git a refusé l'envoi car le dépôt distant contenait des modifications non présentes en local.
+
+**Correction :** Un `git pull` a été effectué, ce qui a déclenché une procédure de merge. Git a fusionné automatiquement les deux versions du fichier. Le merge a ensuite été validé avec un commit, puis les fichiers ont été envoyés avec `git push`.
+
+**Leçon retenue :** Toujours effectuer un `git pull` avant de commencer à modifier des fichiers en local, surtout si des modifications ont pu être faites directement sur GitHub.
+
+---
+
+## 6. Évaluer
+
+### Qu'est-ce qui a bien fonctionné ?
+
+La structure du dépôt a été mise en place rapidement et correspond bien au cahier des charges. La rédaction du README et du manuel utilisateur en Markdown s'est faite facilement. Les commandes de base Git (`add`, `commit`, `push`) ont été comprises et appliquées sans difficulté après les premières utilisations.
+
+### Quelles difficultés ai-je rencontrées ?
+
+La principale difficulté a été de comprendre la notion de dépôt local synchronisé avec un dépôt distant. Au début, il n'était pas évident de réaliser qu'un dossier local et un dépôt GitHub en ligne sont deux choses distinctes qui doivent être synchronisées manuellement. Cela a conduit à un conflit de merge lors d'une modification faite directement sur GitHub sans avoir pull au préalable.
+
+### Comment les ai-je résolues ?
+
+Le conflit a été résolu en effectuant un `git pull` qui a fusionné les deux versions, puis en validant le merge avec un commit avant de push. Pour les commandes Git en général, l'utilisation de Claude Code en terminal a permis de comprendre et d'appliquer les bonnes commandes étape par étape.
+
+### Comment pourrais-je améliorer mon dépôt ?
+
+- Ajouter un fichier `.gitignore` pour exclure les fichiers temporaires ou personnels.
+- Utiliser des branches pour tester des modifications sans impacter la version principale.
+- Ajouter des tags de version pour marquer les étapes importantes du projet.
+- Rédiger des messages de commit plus descriptifs pour améliorer la lisibilité de l'historique.
+
+### Dans quel contexte professionnel pourrais-je réutiliser GitHub ?
+
+GitHub pourrait être réutilisé dans de nombreux contextes professionnels : partager des scripts d'administration système avec l'équipe informatique, versionner des fichiers de configuration, collaborer sur des projets de développement, ou encore documenter et publier des outils internes réutilisables par d'autres administrateurs.
