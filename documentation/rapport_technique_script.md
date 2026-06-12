@@ -177,7 +177,7 @@ Cette organisation permet de séparer clairement les différents types de docume
 
 ## 5.1 Diagramme de flux
 
-[diagramme de flux](../diagramme/diagramme.drawio)
+[diagramme de flux](../diagramme/diagramme.drawio.png)
 
 ## 5.2 Script Bash
 
